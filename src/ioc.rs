@@ -1,4 +1,5 @@
 // Copyright 2026 Jelly Terra <jellyterra@proton.me>
+// Use of this source code form is governed under the MIT license.
 
 use serde::{Deserialize, Serialize};
 
