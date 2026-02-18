@@ -107,7 +107,7 @@ pub fn parse_project(map: HashMap<String, String>, mcu: ioc::Mcu) -> Result<McuP
 
         let gpio_cluster = gpio_name.chars().nth(1).unwrap();
 
-        let user_defined_name = match map.get(&format!("{}.GPIOLabel", gpio_name)) {
+        let user_defined_name = match map.get(&format!("{}.GPIO_Label", gpio_name)) {
             Some(v) => Some(v.clone()),
             None => None,
         };
